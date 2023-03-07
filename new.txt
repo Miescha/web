@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>hexy colors everywhere</title>
+    <meta charset="utf-8"> 
+    <meta name="robots" content="noindex,nofollow" />
+    <style>
+    	td {
+    		width: 25px;
+    		height: 25px;
+    	}
+    </style>
+</head>
+
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <td style="background-color: #0a2320;"> 
+                </td>
+                <td style="background-color: #796f75;"> 
+                </td>
+                <td style="background-color: #202061;"> 
+                </td>
+                <td style="background-color: #726520;"> 
+                </td>
+                <td style="background-color: #6f6e20;"> 
+                </td>
+                <td style="background-color: #746865;"> 
+                </td>
+                <td style="background-color: #207269;"> 
+                </td>
+                <td style="background-color: #676874;"> 
+                </td>
+                <td style="background-color: #207761;"> 
+                </td>
+                <td style="background-color: #792e0a;"> 
+                </td>
+                <td style="background-color: #232074;"> 
+                </td>
+                <td style="background-color: #686973;"> 
+                </td>
+                <td style="background-color: #207072;"> 
+                </td>
+                <td style="background-color: #6f6772;"> 
+                </td>
+                <td style="background-color: #616d20;"> 
+                </td>
+                <td style="background-color: #636f6e;"> 
+                </td>
+                <td style="background-color: #746169;"> 
+                </td>
+                <td style="background-color: #6e7320;"> 
+                </td>
+                <td style="background-color: #746865;"> 
+                </td>
+                <td style="background-color: #20666c;"> 
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #61672e;"> 
+                </td>
+                <td style="background-color: #0a2320;"> 
+                </td>
+                <td style="background-color: #686176;"> 
+                </td>
+                <td style="background-color: #652066;"> 
+                </td>
+                <td style="background-color: #756e20;"> 
+                </td>
+                <td style="background-color: #776974;"> 
+                </td>
+                <td style="background-color: #682069;"> 
+                </td>
+                <td style="background-color: #742e0a;"> 
+                </td>
+                <td style="background-color: #0a666c;"> 
+                </td>
+                <td style="background-color: #61675f;"> 
+                </td>
+                <td style="background-color: #686578;"> 
+                </td>
+                <td style="background-color: #203d20;"> 
+                </td>
+                <td style="background-color: #5b3939;"> 
+                </td>
+                <td style="background-color: #2c2031;"> 
+                </td>
+                <td style="background-color: #31362c;"> 
+                </td>
+                <td style="background-color: #203130;"> 
+                </td>
+                <td style="background-color: #322c20;"> 
+                </td>
+                <td style="background-color: #39352c;"> 
+                </td>
+                <td style="background-color: #203130;"> 
+                </td>
+                <td style="background-color: #342c20;"> 
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #313031;"> 
+                </td>
+                <td style="background-color: #2c2031;"> 
+                </td>
+                <td style="background-color: #31342c;"> 
+                </td>
+                <td style="background-color: #203130;"> 
+                </td>
+                <td style="background-color: #312c20;"> 
+                </td>
+                <td style="background-color: #39352c;"> 
+                </td>
+                <td style="background-color: #203130;"> 
+                </td>
+                <td style="background-color: #352c20;"> 
+                </td>
+                <td style="background-color: #313135;"> 
+                </td>
+                <td style="background-color: #2c2039;"> 
+                </td>
+                <td style="background-color: #352c20;"> 
+                </td>
+                <td style="background-color: #313039;"> 
+                </td>
+                <td style="background-color: #2c2031;"> 
+                </td>
+                <td style="background-color: #32312c;"> 
+                </td>
+                <td style="background-color: #203935;"> 
+                </td>
+                <td style="background-color: #2c2031;"> 
+                </td>
+                <td style="background-color: #30392c;"> 
+                </td>
+                <td style="background-color: #203130;"> 
+                </td>
+                <td style="background-color: #312c20;"> 
+                </td>
+                <td style="background-color: #313135;"> 
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #2c2031;"> 
+                </td>
+                <td style="background-color: #31352c;"> 
+                </td>
+                <td style="background-color: #203937;"> 
+                </td>
+                <td style="background-color: #2c2031;"> 
+                </td>
+                <td style="background-color: #30332c;"> 
+                </td>
+                <td style="background-color: #203130;"> 
+                </td>
+                <td style="background-color: #312c20;"> 
+                </td>
+                <td style="background-color: #39352c;"> 
+                </td>
+                <td style="background-color: #203130;"> 
+                </td>
+                <td style="background-color: #352c20;"> 
+                </td>
+                <td style="background-color: #313130;"> 
+                </td>
+                <td style="background-color: #2c2039;"> 
+                </td>
+                <td style="background-color: #352c20;"> 
+                </td>
+                <td style="background-color: #313034;"> 
+                </td>
+                <td style="background-color: #2c2035;"> 
+                </td>
+                <td style="background-color: #312c20;"> 
+                </td>
+                <td style="background-color: #313230;"> 
+                </td>
+                <td style="background-color: #2c2039;"> 
+                </td>
+                <td style="background-color: #352c20;"> 
+                </td>
+                <td style="background-color: #39392c;"> 
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #203131;"> 
+                </td>
+                <td style="background-color: #312c20;"> 
+                </td>
+                <td style="background-color: #313038;"> 
+                </td>
+                <td style="background-color: #2c2031;"> 
+                </td>
+                <td style="background-color: #31312c;"> 
+                </td>
+                <td style="background-color: #203131;"> 
+                </td>
+                <td style="background-color: #342c20;"> 
+                </td>
+                <td style="background-color: #313135;"> 
+                </td>
+                <td style="background-color: #5d3b20;"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

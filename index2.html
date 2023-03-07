@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Podcasts Web </title>
+    <meta charset="utf-8">
+    
+</head>
+
+<body class="column">
+    <header>
+        
+        <figure>
+            <img src="assets/image/Neon-podcast-logo.webp" alt="Girl in a jacket" width="120" height="120">
+               <figcaption>Wow!</figcaption> 
+        </figure>
+        <h1>Index</h1>
+        
+    </header>
+    <nav id="navigation">
+        <a href="index.html">Abonnierte Podcast</a>
+            |
+            <a href="podcast.html">Details zum Podcast</a>
+            |
+            <a href="episode.html">Details zur Episode</a>
+            |
+            <a href="newPodcast.html">Podcast hinzufügen</a>
+    </nav>
+    <dev class="row">
+    <main id="flex1">
+        <!--"file:///home/miescha/Insync/mohammad.farokh003@stud.fh-dortmund.de/OneDrive%20Biz/3_Semester/Web_Technologien/Praktikum/podcast.html"-->
+        <h2>abonnierte Podcasts</h2>
+        <form action="https://labs.inf.fh-dortmund.de/podcastService/testPodcastSearch.php"
+            method="get">
+                <label>Podcast</label>
+                <input type="text" name="pctitle"
+                pattern="[A-Z][a-z]*"
+                size="20" maxlength="100"
+                placeholder="name of the Podcast" required><br>
+                <input type="submit" value="Finden">
+            </form>
+        <ul id="padcasts">
+            <li><a href="podcast.html"><img src="assets/image/th.webp" alt="Hubermann Lab" width="175" height="120">
+                How Your Brain Works</a> (24)</li>
+            <li><a href="podcast.html"><img src="assets/image/th.webp" alt="Hubermann Lab" width="175" height="120">
+                Master your Sleep</a> (30)</li>
+            <li><a href="podcast.html"><img src="assets/image/th.webp" alt="Hubermann Lab" width="175" height="120">
+                Control Your Hunger</a> (45)</li>
+            <li><a href="podcast.html"><img src="assets/image/th.webp" alt="Hubermann Lab" width="175" height="120">
+                Muscle Growth</a> (60)</li>
+        </ul>
+    </main>
+    <aside id="flex2">
+        <h4>Neuste Episode</h4>
+        <ul>
+            <li>The Science of Learning & Speaking Languages</li>
+            <li>Fitness Toolkit: Protocol & Tools to Optimize Physical Health</li>
+        </ul>
+    </aside>
+    </dev>
+    <footer>
+       <div style = "position:absolute; right: 50%;"><small>&#169; by WebTech Inc.</small> </div>
+    </footer>
+</body>
+
+</html>

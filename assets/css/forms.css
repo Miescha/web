@@ -1,0 +1,60 @@
+/*5-1-2*/
+input:invalid { 
+    background-color: ivory;
+    border: none;
+    outline: 2px solid red;
+    border-radius: 5px;
+}
+/*5-1-2*/
+/*5-1-3*/
+label:hover{
+    border: 5px;
+    outline: 2px dotted rgb(5, 0, 9);
+    background-color:blueviolet;
+}
+label:not([type = "input"]):hover{}   
+/*5-1-3*/
+/*5-1-4*/
+.stern::after{
+    content: "*"; 
+    padding-right: 20px;
+    color: red; 
+}
+label:required::after{}
+/*5-1-4*/
+/*5-1-5*/
+[type = "submit"]{
+    border-radius: 30%;
+    background-color:pink;
+    
+}
+
+[type = "submit"]:hover{
+    box-shadow: 0 0 5px 6px rgba(0, 140, 186, 0.5);
+}
+/*5-1-5*/
+/*5-1-6*/ 
+.beschriftung{
+    border-right-style: solid;
+    border-left-style: solid;
+    border-radius: 5px;
+    
+}
+
+/*.autor{
+    padding: 25px;
+    padding-right: 100px;
+    border-top: 2px solid black;
+
+}*/
+
+#first{
+    width: 230px;
+    padding-left: 20px;
+}
+
+#second{
+    width: 150px;
+    padding-left: 20px;
+}
+/*5-1-6*/

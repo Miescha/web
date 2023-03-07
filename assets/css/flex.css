@@ -1,0 +1,35 @@
+/*6-2*/
+.row{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+   /* height: 50px;*/
+}
+
+#flex1{
+    flex: 4 0 75%;
+}
+
+#flex2{
+    flex: 1 1 auto;
+}
+
+nav{
+    margin-bottom: 30px;
+}
+
+#player{
+    margin-top: 100px;
+}
+@media screen and (max-width:768px){
+    .row{
+        display: flex;
+        flex-direction: column; 
+    }
+    
+}

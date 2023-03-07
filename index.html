@@ -1,45 +1,80 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+<head>    
+    
     <title>Podcasts Web </title>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/forms.css">
+    <link id="link" rel="stylesheet" type="text/css" href="assets/css/index.css">
+    
 </head>
 
-<body>
+<body class="column">
     <header>
         <h1>Index</h1>
-        <img src="https://imgs.search.brave.com/djFT6GiUo9wJsDV9yWOW5EGIFCyCorDF1wcnyOb9z6s/rs:fit:1000:800:1/g:ce/aHR0cHM6Ly9yYWNo/ZWxjb3JiZXR0LmNv/bS5hdS93cC1jb250/ZW50L3VwbG9hZHMv/MjAxOC8wNy9OZW9u/LXBvZGNhc3QtbG9n/by5qcGc" alt="Girl in a jacket" width="120" height="120">
+        <figure>
+            <img src="assets/image/Neon-podcast-logo.webp" alt="Girl in a jacket" width="120" height="120">
+               <figcaption>Wow!</figcaption> 
+        
 
+        
     </header>
-    <nav>
+    <nav id="navigation">
         <a href="index.html">Abonnierte Podcast</a>
-            <h>|<h>
+            |
             <a href="podcast.html">Details zum Podcast</a>
-            <h>|<h>
+            |
             <a href="episode.html">Details zur Episode</a>
+            |
+            <a href="newPodcast.html">Podcast hinzufügen</a>
+            |
+            <a href="index2.html">Index2</a>
     </nav>
-    <main>
+    <dev class="row">
+        <button id="buttom"
+type="button">
+ListeAnsicht
+</button>
+    <main id="flex1">
+        <!--"file:///home/miescha/Insync/mohammad.farokh003@stud.fh-dortmund.de/OneDrive%20Biz/3_Semester/Web_Technologien/Praktikum/podcast.html"-->
         <h2>abonnierte Podcasts</h2>
-        <form action="file:///home/miescha/Insync/mohammad.farokh003@stud.fh-dortmund.de/OneDrive%20Biz/3_Semester/Web_Technologien/Praktikum/podcast.html"
+        <form action="https://labs.inf.fh-dortmund.de/podcastService/testPodcastSearch.php"
             method="get">
-                <label for="podcast">Podcast</label>
-                <input type="text" name="Podcast:" pattern="[A-Z]+[a-z]"
+                <label>Podcast</label>
+                <input type="text" name="pctitle"
+                pattern="[A-Z][a-z]*"
                 size="20" maxlength="100"
                 placeholder="name of the Podcast" required><br>
                 <input type="submit" value="Finden">
             </form>
         <ul>
-            <li><a href="podcast.html">Working Draft</a> (24)</li>
-            <li><a href="podcast.html">FH podcaste</a> (30)</li>
+            <li><a href="podcast.html"><img src="assets/image/th.webp" alt="Hubermann Lab" width="175" height="120">
+                How Your Brain Works</a> (24)</li>
+            <li><a href="podcast.html"><img src="assets/image/th.webp" alt="Hubermann Lab" width="175" height="120">
+                Master your Sleep</a> (30)</li>
+            <li><a href="podcast.html"><img src="assets/image/th.webp" alt="Hubermann Lab" width="175" height="120">
+                Control Your Hunger</a> (45)</li>
+            <li><a href="podcast.html"><img src="assets/image/th.webp" alt="Hubermann Lab" width="175" height="120">
+                Muscle Growth</a> (60)</li>
+        
         </ul>
     </main>
-    <aside>
-
+    <aside id="flex2">
+        <h4>Neuste Episode</h4>
+        <ul>
+            <li>The Science of Learning & Speaking Languages</li>
+            <li>Fitness Toolkit: Protocol & Tools to Optimize Physical Health</li>
+        </ul>
     </aside>
+    </dev>
     <footer>
-
+       <div style = "position:absolute; right: 50%;"><small>&#169; by WebTech Inc.</small> </div>
     </footer>
+</figure>
+<script src="assets/js/script.js "></script>
+<script src="assets/js/index.js "></script>
 </body>
 
 </html>

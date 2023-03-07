@@ -1,0 +1,30 @@
+header, nav, main, aside, footer {
+    border: 1px solid white;
+    background-color: orange;
+    padding: 15px;
+    text-align: center;
+    font-size: 4em;
+    }
+    body {
+        margin: 0;
+        height: 100vh;
+        }
+
+header{grid-area : one;}
+#mainnav{grid-area : two;}
+#subnav{grid-area : three;}
+aside{grid-area : four;}
+main{grid-area : five;}
+footer{grid-area : six;}
+
+@media screen and (orientation:landscape){
+    body{
+        display:grid;
+        grid-template-areas: "one two two"
+                             "three five four"
+                             "six six six";
+    
+    grid-template-rows: 10% auto 10%;
+    grid-template-columns: 20% auto 20%;
+    }
+}

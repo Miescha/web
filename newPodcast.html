@@ -1,58 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html id="newpodcast" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/forms.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/grid.css">
     <title>Document</title>
 </head>
-<body>
+<body class="grid">
+    <header>
+        <h1>New Podcast</h1>
+    </header>
+    <nav id="navigation">
+        <a href="index.html">Abonnierte Podcast</a>
+            |
+            <a href="podcast.html">Details zum Podcast</a>
+            |
+            <a href="episode.html">Details zur Episode</a>
+            |
+            <a href="newPodcast.html">Podcast hinzufügen</a>
+            |
+            <a href="index2.html">Index2</a>
+    </nav>
   <main>
-    <form action="file:///home/miescha/Insync/mohammad.farokh003@stud.fh-dortmund.de/OneDrive%20Biz/3_Semester/Web_Technologien/Praktikum/test.html"
+    
+    <!--"file:///home/miescha/Insync/mohammad.farokh003@stud.fh-dortmund.de/OneDrive%20Biz/3_Semester/Web_Technologien/Praktikum/test.html"-->
+    <form action="https://labs.inf.fh-dortmund.de/podcastService/testCreatePodcast.php"
             method="post">
-                <p><label for="titel">Titel:</label>
-                <input type="text" name="title" pattern="[A-Z]+[a-z].{1,100}"
+                <p><label class = "stern">Titel:
+                <input type="text" name="pctitle" pattern="[A-Z][a-zA-Z]+"
                 size="20" maxlength="100"
-                placeholder="pctitle" required><br></p>
+                placeholder="pctitle" required></p>
+            </label>
 
-                <p><label for="beschreibung">Beschreibung:</label>
-                    <input type="text" name="beschreibung"
+                <p><label >Beschreibung:
+                    <input type="text" name="pcdescription"
                     size="50" maxlength="500"
                     placeholder="pcdescription" ><br></p>
-
-                <p><label for="autor">Autor:</label>
-                    <input type="text" name="autor" pattern="([^,][,]?[^,])+"
+                </label>
+                <p><label>Kategorie(n):
+                    <select name="pccategories" multiple> 
+                        <option value="Rap">Rap</option>
+                        <option value="Hiphop">Hiphop</option>
+                        <option value="Jazz">Jazz</option>
+                        <option value="Chill">Chill</option>
+                        <option value="Blue">Blue</option>
+                        </select>
+                    </label>
+                <p class = "beschriftung" id="first">Verantwortliche Personen</p>
+                <p><label class="autor">Autor:
+                    <input type="text" name="pcauthors" pattern="[A-Z][a-zA-Z][,A-Za-z]*"
                     size="20" maxlength="100"
                     placeholder="pcauthors"><br></p>
+                </label>
 
-                <p><label for="besitzer">Name des Besitzers:</label>
-                    <input type="text" name="besitzer"
+                <p><label class = "stern">Name des Besitzers:
+                    <input type="text" name="pcownername"
                     size="20"
-                    placeholder="pcownername" required><br></p> 
+                    placeholder="pcownername" required></p> 
                 <!--pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"-->
-                <p><label for="email">E-Mail des Besitzers:</label>
-                <input type="email" name="email" 
+               </label>
+
+                <p><label class = "stern">E-Mail des Besitzers:
+                <input type="email" name="pcowneremail" 
                 size="20"
-                placeholder="pcowneremail" required><br></p>  
+                placeholder="pcowneremail" required></p> 
+                 </label> 
 
-                <p><label for="kategorie">Kategorie(n):</label>
-                    <input type="text" name="kategorie" pattern="[Rap,Hiphop,Jazz,Chill,Blue]*"
-                    size="20"
-                    placeholder="pccategories"><br></p> 
-
-                <p><label for="datum">Letztes Update(Datum):</label>
-                    <input type="date" name="datum" min="2000-01-01" 
-                    size="20"
-                    placeholder="pclastupdatedate" required><br></p>
                 
-                <p><label for="zeit">Letztes Update(Uhrzeit):</label>
-                <input type="time" name="last update"
+                    <p class = "beschriftung" id="second">Letztes Update</p>
+                <p><label class = "stern">Letztes Update(Datum):
+                    <input type="date" name="pclastupdatedate" min="2000-01-01" 
+                    size="20"
+                    placeholder="pclastupdatedate" required></p>
+                </label>
+                
+                <p><label class = "stern">Letztes Update(Uhrzeit):
+                <input type="time" name="pclastupdatetime"
                 size="20"
-                placeholder="pclastupdatetime" required><br></p>
+                placeholder="pclastupdatetime" required></p>
+                 </label>
 
 
                 <input type="submit" value="Add">
             </form>
-  </main>  
+  </main> 
+  <aside>
+    <h4>Neuste Episode</h4>
+    <ul>
+        <li>The Science of Learning & Speaking Languages</li>
+        <li>Fitness Toolkit: Protocol & Tools to Optimize Physical Health</li>
+    </ul>
+</aside>
+</dev>
+<footer>
+   <div style = "position:absolute; right: 50%;"><small>&#169; by WebTech Inc.</small> </div>
+</footer> 
 </body>
 </html>

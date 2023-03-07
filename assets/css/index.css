@@ -1,0 +1,59 @@
+
+body header{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    flex: auto;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+   /* height: 50px;*/
+}
+
+#flex1{
+    flex: 4 0 75%;
+}
+
+#flex2{
+    flex: 1 1 auto;
+}
+
+nav{
+    margin-bottom: 30px;
+}
+
+#player{
+    margin-top: 100px;
+}
+
+#padcasts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+li{
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+}
+
+@media screen and (max-width:768px){
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    li{
+        height: 50px;
+        width: 400px;
+    }
+}
